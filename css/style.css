@@ -1,3 +1,6 @@
+body{
+	background: #F6F8F9;
+}
 /*header*/
 .logo1 {
 	display: inline-block;
@@ -30,10 +33,54 @@
 }
 .active {
 	color: #000000;
-
 }
-.header {
-	position: fixed;
-	top: 0;
-	left: 0;
+
+/*section1-left*/
+.section1-left{
+	width: 360px;
+	background: #FFFFFF;
+}
+.sec1-img1{
+	position: relative;
+}
+.section1-p1{
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 16px;
+	font-weight: bold;
+}
+.section1{
+	margin: 25px 0px 0px 20px;
+}
+.head1{
+	margin: 0px 0px 40px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #202124;
+	font-weight: bold;
+}
+.sec1-p2{
+	width: 280px;
+	font-family: 'Open Sans', sans-serif;
+	color: #A6ADB4;
+	font-size: 13px;
+	margin: 66px 0px 0px 40px;
+}
+.time {
+	font-family: 'Open Sans', sans-serif;
+	color: #A6ADB4;
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.timep{
+	vertical-align: middle;
+	margin: 0px 10px 0px 0px;
+}
+.div-time{
+	margin: 10px 0px 0px 40px;
+	padding: 0px 0px 40px 0px;
 }
