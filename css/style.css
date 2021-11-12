@@ -1,0 +1,39 @@
+/*header*/
+.logo1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #FA6980;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 18px 92px 0px 20px;
+}
+.nav-li {
+	display: inline-block;
+	margin: 18px 22px 0px 0px;
+}
+.nav {
+	vertical-align: middle;
+	display: inline-block;
+}
+.userlogo{
+	vertical-align: middle;
+	margin: 18px 0px 0px 0px;
+}
+.nav-li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #343638;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.active {
+	color: #000000;
+
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
