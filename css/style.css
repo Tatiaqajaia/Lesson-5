@@ -39,6 +39,7 @@ body{
 .section1-left{
 	width: 360px;
 	background: #FFFFFF;
+	display: inline-block;
 }
 .sec1-img1{
 	position: relative;
@@ -49,7 +50,7 @@ body{
 	left: 40px;
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
-	font-family: 16px;
+	font-size: 16px;
 	font-weight: bold;
 }
 .section1{
@@ -83,4 +84,53 @@ body{
 .div-time{
 	margin: 10px 0px 0px 40px;
 	padding: 0px 0px 40px 0px;
+}
+/*section1 middle*/
+.section1-middle{
+	display: inline-block;
+	width: 360px;
+	background: #FFFFFF;
+	margin: 0px 0px 0px 40px;
+}
+/*section1 right*/
+.section1-right{
+	display: inline-block;
+	width: 360px;
+	background: #FFFFFF;
+	margin: 0px 0px 0px 40px;
+}
+/*section2*/
+.section2{
+	margin: 25px 0px 37px 20px;
+}
+.section2-left{
+	width: 760px;
+	display: inline-block;
+	vertical-align: top;
+}
+.sec2-img2 {
+	position: relative;
+	display: inline-block;
+}
+.section2-p {
+	position: absolute;
+	top: 194px;
+	left: 308px;
+	font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section2-right{
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+.img5{
+	margin-top: 40px;
+}
+.img7{
+	margin-top: 102px;
+	margin-bottom: 102px;
 }
